@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Contact us page</title>
+        <link rel="stylesheet" href="style_cu.css">
+    </head>
+    <body>
+      <main>
+          <h1>REACH OUT TO US</h1>
+          <p>Fill out this form to get in touch with us</p>
+          <form method="post" action="">
+            <fieldset>
+              <label for="fname">Enter Your First Name: <input id="fname" name="first-name" type="text" required/></label><br>
+              <label for="mname">Enter Your Middle Name: <input id="mname" name="middle-name" type="text"/></label><br>
+              <label for="lname">Enter Your Last Name: <input id="lname" name="last-name" type="text" required/></label><br>
+              <label for="email">Enter Your Email: <input id="email" name="email" type="email" required/></label>
+            </fieldset>
+            <fieldset>
+              <legend>What <em>YEAR</em> and <em>TERM</em> are you in ?</legend>
+              <p class="year">Year</p>
+              <label for="year1"><input id="year1" type="radio" name="year" class="inline" checked>Year 1</label>
+              <label for="year2"><input id="year2" type="radio" name="year" class="inline">Year 2</label>
+              <label for="year3"><input id="year3" type="radio" name="year" class="inline">Year 3</label>
+              <p class="term">Term</p>
+              <label for="term1"><input id="term1" type="radio" name="term" class="inline" checked>Term 1</label>
+              <label for="term2"><input id="term2" type="radio" name="term" class="inline">Term 2</label>
+              <label for="term3"><input id="term3" type="radio" name="term" class="inline">Term 3</label>
+              <label></label>
+            </fieldset>
+            <fieldset>
+              <label for="event">Select an event you would like to participate in: <br>
+                <select id="event" name="event">
+                  <option value="1">(select one)</option>
+                  <option value="2">Career guidance council discussion</option>
+                  <option value="3">New program launch</option>
+                  <option value="4">Panel Discussion"Future generation"</option>
+                  <option value="5">Mount Climbing</option>
+                  <option value="6">Club launch "Get into Tech"</option>
+                  <option value="7">Football match</option>
+                </select>
+              </label><br><br>
+              <label for="feedback">What are you looking forward to the most?<textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="Not mandatory to write something"></textarea>
+              </label>
+            </fieldset>
+              <label for="tac">I declare to have been honest in filling up the form <input id="tac" type="checkbox" name="tac" required>
+              </label><br><br>
+            <input type="submit" value="Submit"/>
+          </form>
+        </main>
+    </body>
+</html>
