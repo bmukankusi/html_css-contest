@@ -1,18 +1,44 @@
 header {
-    background-color: rgb(7, 7, 58);
-    text-align: center;
-    padding: 20px;
-
+   background-color: rgb(8, 8, 104);
 }
 
+.header-content { 
+    padding: 20px;
+}
+
+#navi {
+    font-size: 35px;
+    background-color: rgb(173, 118, 36);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 100px;
+}
+#nav2 {
+    font-size: 35px;
+    background-color: rgb(173, 118, 36);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 230px;
+}
+#nav3 {
+    font-size: 35px;
+    background-color: rgb(173, 118, 36);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 200px;
+}
 
 body {
-    background-color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 27px;
+    padding: 60px;
+    background-color: #222247;
 }
+      
+
 .content {
     padding: 20px;
+    color: white;
 }
 
 #lgname {
@@ -36,7 +62,7 @@ mv_img {
 
     display: flex;
     justify-content: space-between;
-    animation: movePictures 8s linear alternate;
+    animation: movePictures 8s forwards;
 }
     @keyframes movePictures {
         0% {
@@ -62,7 +88,8 @@ footer {
     padding: 20px;
 }
 :hover a {
-    color: brown;
+    color: green;
     
 }
+
 
