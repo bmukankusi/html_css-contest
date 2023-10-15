@@ -1,10 +1,11 @@
 header {
-   background-color: rgb(8, 8, 104);
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
-.header-content { 
-    padding: 20px;
-}
+
+
 
 #navi {
     font-size: 35px;
@@ -43,16 +44,22 @@ body {
 
 #lgname {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 55px;
     color: rgb(163, 141, 18);
     font-weight: bolder;
-    align-self: center;
-    padding: 20px;
+    padding: 70px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 25px;
 }
 #logo {
-    
-    width: 100px;
-    height: 100px;
+    background-color: black;
+    border-radius: 27px;
+    width: 400px;
+    height: 300px;
+    margin-left: 350px;
+    margin-bottom: 0;
+    margin-top: 120px;
 }
 mv_img {
     width: 150px;
@@ -79,17 +86,30 @@ mv_img {
         }
 }
 .moving-pictures img {
-    width: 400px; 
+    width: 480px; 
     height: 300px;
+    justify-content: space-around;
+}
+aside {
+    background-color: black;
+    border-radius: 30px;
+    padding: 20px;
 }
 footer {
     background-color: rgb(5, 53, 53);
+    border-radius: 15px;
+    box-shadow: #222247;
     align-items: center;
     padding: 20px;
 }
 :hover a {
-    color: green;
+    color: rgb(104, 8, 8)
     
+}
+#hist {
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 
